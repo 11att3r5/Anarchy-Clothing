@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xsl-stylesheet type="text/xsl" href="styles.xsl"?>
+<directories>
+	<directory>
+		<name>Human Resources</name>
+		<members>Jana Blakley</members>
+		<phone>555-555-5555</phone>
+		<email>HRAnarchy@domain.com</email>
+	</directory>
+</directories>

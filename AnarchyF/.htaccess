@@ -1,0 +1,11 @@
+Options +Includes
+AddType text/html .shtml
+AddType text/html .html
+AddType text/html .htm
+AddType text/html .xml
+AddHandler server-parsed .xml
+AddHandler server-parsed .htm
+AddHandler server-parsed .shtml
+AddHandler server-parsed .html
+AddOutputFilter INCLUDES .html
+Options Indexes FollowSymLinks Includes

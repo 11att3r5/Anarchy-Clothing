@@ -1,0 +1,498 @@
+body
+	background-image: url("../img/Dark-Images-3_mini-min.jpg")
+	background-attachment: fixed
+	background-repeat: no-repeat
+	background-size: cover
+
+
+
+.content
+	width: 80%
+	min-width: 850px
+	max-width: 1024px
+	height: 100%
+	min-height: 100vh
+	margin: auto
+	padding-top: 7rem
+	background-color: rgba(255, 255, 255, 0.8)
+
+
+@media only all and (max-width: 1024px)
+	ul 
+		li 
+			div
+				max-width: 175px
+	
+
+
+@media only all and (max-width: 829px)
+	.content
+		min-width: 700px
+	
+
+	ul 
+		li 
+			div
+				max-width: 220px
+	
+
+	.slick-next,.slick-previous
+		display: none
+	
+
+
+@media only all and (max-width: 700px)
+	.content
+		min-width: 100%
+	
+
+
+@media only all and (max-width: 652px)
+	ul 
+		li 
+			div
+				max-width: 210px
+	
+
+
+.tab-bar
+	height: 3.75rem
+
+
+.header
+	background-color: #000
+
+
+.left-small
+	display: none
+
+
+.navsection
+	height: 2rem
+
+
+.navbar
+	height: 2rem
+	background: rgb(188,188,188) /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(188,188,188,1) 0%, rgba(252,252,252,1) 14%, rgba(255,255,255,1) 81%, rgba(186,186,186,1) 100%) /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(188,188,188,1) 0%,rgba(252,252,252,1) 14%,rgba(255,255,255,1) 81%,rgba(186,186,186,1) 100%) /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(188,188,188,1) 0%,rgba(252,252,252,1) 14%,rgba(255,255,255,1) 81%,rgba(186,186,186,1) 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#bababa',GradientType=0 ) /* IE6-9 */
+	text-align: center
+	box-shadow: 0px 2px 20px #424242
+	border-bottom: 1px solid #828282
+
+
+.left-off-canvas-menu
+	border-top: 1px solid #212121
+	border-bottom: 1px solid #999
+
+
+.left-off-canvas-menu 
+	ul 
+		li 
+			a
+				display: block
+				padding: 1em
+				background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%)
+				color: #626262
+				font-size: 1.2em
+				text-decoration: none
+				transition: color 0.3s, background 0.7s ease
+				text-align: center
+
+
+
+.left-off-canvas-menu 
+	ul 
+		li 
+			a:hover
+				color: #ffffff
+				background: linear-gradient(135deg, rgba(0,0,0,0) 0%,#424242 100%)
+
+
+#welcome
+	position: relative
+	float: right
+	font-size: 0.8em
+	text-transform: uppercase
+	text-align: center
+	margin: 0px 10px
+	color: #fff
+	top: 1rem
+
+
+@media only all and (max-width: 688px)
+	#welcome
+		display: none
+	
+
+
+
+.pagenav
+	position: relative
+	list-style: none
+	display: inline
+
+
+.pagenav 
+	li
+		display: inline
+
+
+.pagenav 
+	li 
+		a
+			position: relative
+			display: inline
+			top: -0.5rem
+			padding: 0px 10px 0px
+			margin: 0px 10px 0px
+			font-family: Helvetica, Arial, sans-serif
+			text-decoration: none
+			list-style: none
+			color: rgba(0, 0, 0, 0.70)
+			font-weight: bold
+
+
+.breadcrumbs
+	margin-bottom: 1rem
+
+
+.breadcrumbs 
+	a
+		text-decoration: none
+		color: rgba(0, 0, 0, 0.70)
+
+
+.breadcrumbs 
+	a:hover
+		color: #212121
+		font-weight: bold
+		text-decoration: none
+
+/*FILTER*/
+
+.filter
+	display: none
+
+
+#filter
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+
+
+.select
+	position: relative
+	margin: 0px
+	line-height: 1.5
+	min-width: 75px
+
+
+.menu
+	margin: 0px
+	padding: 0px
+	background: #fff
+
+
+.menu 
+	h4
+		font-size: 15px
+		background: #303030
+		margin: 0px
+
+
+.menu 
+	h4:hover
+		background: #535353
+
+
+.menu 
+	h4 
+		a
+			color: #eee
+			display: block
+			text-decoration: none
+			padding: 7px 12px
+
+
+.menu 
+	h4 
+		a:hover
+			cursor: pointer
+
+
+.down
+	background: #fff
+	font-size: 13px
+	line-height: 30px
+	list-style-type: none
+	overflow: hidden
+	padding: 0px
+	margin: 0px
+
+
+.menu 
+	ul 
+		a 
+			margin-left: 20px
+			text-decoration: none
+			color: rgba(0, 0, 0, 0.70)
+			display: block
+
+
+/*li Styles*/
+.menu 
+	li 
+		border-bottom: 1px solid #eee
+
+
+.menu 
+	li:hover 
+		background: #eee
+
+
+.button
+	background: #303030
+	margin: 0
+
+
+.button:hover
+	color: #fff
+	background: #535353
+
+
+footer
+	position: relative
+	width: 100%
+	text-align: center
+	clear: both
+	background-color: #000000
+	color: #ffffff
+	left: 0
+	bottom: 0
+	height: 100px
+	padding: 0
+
+
+footer 
+	p
+		padding-top: 1rem
+		margin: 0
+
+
+/*HOME STYLES*/
+#Hmain
+	position: relative
+	max-width: 768px
+	min-width: 75%
+	height: 100%
+	margin: auto
+	padding-bottom: 20px
+
+
+#Hmain 
+	div
+		position: relative
+		height: 100%
+		margin: auto
+
+
+#Hmain 
+	div 
+		a 
+			img
+				position: relative
+				width: 100%
+				height: auto
+
+
+#news-ticker
+	position: relative
+	padding-bottom: 1.5rem
+
+
+/*SPECIALS TABLE*/
+table
+	width: 75%
+	height: 100%
+	text-align: center
+	margin: auto
+	background-color: inherit
+
+
+table 
+	tr 
+		th 
+			background-color: #212121
+			height: 3em
+			color: #999
+			font-size: 1.5em
+			text-align: center
+
+
+.price
+	width: 30%
+	font-size: 2rem
+	text-align: center
+	color: #303030
+
+
+.dealimg
+	position: relative
+	width: 70%
+	text-align: center
+
+
+.dealimg 
+	a 
+		div
+			position: relative
+			width: 70%
+			height: 100%
+
+
+.dealimg 
+	a 
+		div 
+			img
+				width: 100%
+				height: auto
+
+
+@media only all and (max-width: 640px)
+
+
+	.content
+		padding-top: 5rem
+	
+
+	ul 
+		li 
+			div
+				width: 100%
+				max-width: 190px
+	
+
+	.left-small
+		display: block
+	
+
+	.navbar
+		display: none
+	
+
+	.filter
+		position: relative
+		height: 50px
+		width: 100%
+		display: block
+		color: #ffffff
+		background-color: #212121
+	
+
+	.filter:hover
+		background-color: #303030
+	
+
+	.filter 
+		p
+			position: relative
+			margin: 0px
+			padding: 1em
+			text-align: center
+			vertical-align: middle
+			display: block
+	
+
+	.filter:hover
+		cursor: pointer
+	
+
+	.down
+		display: none
+	
+
+
+
+
+
+@media only all and (max-width: 598px)
+	ul 
+		li 
+			div
+				max-width: 170px
+	
+
+
+@media only all and (max-width: 568px)
+	ul 
+		li 
+			div
+				max-width: 160px
+	
+
+
+@media only all and (max-width: 480px)
+	ul 
+		li 
+			div
+				max-width: 200px
+	
+
+
+@media only all and (max-width: 450px)
+	ul 
+		li 
+			div
+				max-width: 100%
+	
+
+
+#Htopmain
+	position: relative
+	width: 75%
+	height: 50px
+	margin: auto
+	margin-bottom: 2rem
+	text-align: center
+	padding-top: 20px
+	display: block
+
+
+#Hloc
+	top: 5px
+	position: absolute
+	width: 100%
+	text-align: center
+
+
+#Hloc 
+	p
+		font-size: 2em
+		margin: auto
+		max-width: 200px
+		display: table
+		width: -moz-fit-content
+		width: -webkit-fit-content
+		width: fit-content
+		padding: 10px 10px
+		background-color: #212121
+		color: #929292
+		text-transform: uppercase
+		font-family: Helvetica, Arial, sans-serif
+		-webkit-border-radius: 20px
+		-moz-border-radius: 20px
+		border-radius: 20px
+
+hr
+	position: relative
+	top: 15px
+	height: 3px
+	background-color: #666666
+	border-radius: 10%
+	margin: auto
+
+
+
